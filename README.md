@@ -89,7 +89,9 @@ Supported encrypt method:
     3. aes-256-cfb/ofb
     4. chacha20/chacha20-ietf
 
-
+### install win-pcap
+ 1.windows 上需要安装一个pcap。
+ 
 
 ### TODO
 
