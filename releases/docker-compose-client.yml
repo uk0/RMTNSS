@@ -1,0 +1,13 @@
+version: '2'
+services:
+  Socks5obfs-xxz:
+    image: firshme/ssj-lib:latest
+    restart: always
+    ports:
+      - "10890:10890"
+      - "9999:9999"
+    restart: always
+    volumes:
+      - ./conf/conf_client.json:/app/conf/conf_client.json
+      - ./RMT-NSS-v1.jar:/app/app.jar
+    command:  ["java","-jar","/app/app.jar","client"]

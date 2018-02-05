@@ -1,0 +1,15 @@
+version: '2'
+services:
+  ssj-uk-1:
+    image: firshme/ssj-lib:latest
+    restart: always
+    ports:
+      - "1085:1085/udp"
+      - "150:150/udp"
+      - "1085:1085"
+      - "150:150"
+    restart: always
+    volumes:
+      - ./conf/conf_server.json:/app/conf/conf_server.json
+      - ./RMT-NSS-v1.jar:/app/app.jar
+    command:  ["java","-jar","/app/app.jar","server"]

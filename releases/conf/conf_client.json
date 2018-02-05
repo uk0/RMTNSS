@@ -1,0 +1,32 @@
+
+{
+  "recent_address_list":["10.105.220.49"],
+  "upload_speed":5600000,
+  "download_speed":5600000,
+  "server_port":150,
+  "server_address":"10.105.220.49",
+  "protocal":"udp",
+  "auto_start":true,
+
+  "dst":[
+    {
+      "listen_port":1087,
+      "name":"fuckGFW",
+      "dst_port":1085,
+      "dst_address":"10.105.220.49"
+    },
+    {
+      "listen_port":9999,
+      "name":"web",
+      "dst_port":80,
+      "dst_address":"10.162.42.180"
+    }],
+  "password": "Passw0rd",
+  "localPort": 10890,
+  "method": "chacha20",
+  "remotePort": 1087,
+  "remoteIpAddress": "127.0.0.1",
+  "server_mode": false,
+  "auth":true,
+  "timeout": 300
+}

@@ -1,0 +1,10 @@
+{
+  "password": "password",
+  "localPort": 1088,
+  "method": "chacha20",
+  "remotePort": 1085,
+  "remoteIpAddress": "127.0.0.1",
+  "server_mode": true,
+  "auth":true,
+  "timeout": 300
+}
