@@ -23,8 +23,8 @@ java -jar RMT-NSS.jar server | client # 任意一种模式
     docker-compose -f docker-compose-client.yml  up -d 
     ```
 * config 
-
-> server 部分配置兼容SS
+ 
+> server 部分配置兼容SS （conf_server.json）
 
 ```json
 
@@ -43,7 +43,7 @@ java -jar RMT-NSS.jar server | client # 任意一种模式
 ```
 
 
-> client 配置
+> client 配置（conf_client.json）
 
 
 ```json
