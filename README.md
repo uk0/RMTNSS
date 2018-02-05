@@ -9,6 +9,10 @@
 mvn clean package # 编译jar
 java -jar RMT-NSS.jar server | client # 任意一种模式
 ```
+ 
+ 配置文件的路径为:
+    当前运行jar路径`/conf/`
+    推荐用Docker运行服务端。
 
 * for Docker 
 
@@ -92,7 +96,6 @@ Supported encrypt method:
 ### install win-pcap
  1.windows 上需要安装一个pcap。
  
-
 ### TODO
 
  1.添加TLS代理,HTTP模拟流量.
